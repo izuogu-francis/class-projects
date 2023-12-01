@@ -1,0 +1,51 @@
+main {
+  text-align: center;
+}
+
+.form-container {
+  text-align: left;
+  width: 500px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  font-size: medium;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  border-width: 0px;
+  border-radius: 8px;
+}
+
+input:focus,
+textarea:focus {
+  color: #fc5e55;
+}
+
+input {
+  height: 40px;
+}
+
+#success-message {
+  border: 1px solid green;
+  background-color: #b8fbb8;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 30px;
+  color: green;
+  font-weight: 600;
+  display: none;
+}
